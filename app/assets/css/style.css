@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Aldrich|PT+Mono|Sarpanch");
 @import url("https://fonts.googleapis.com/css?family=Acme|Bangers|Cabin+Sketch|Gloria+Hallelujah|Jua|Permanent+Marker|Special+Elite|Sriracha|Tauri");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
-@font-face {
-  font-family: "Hunger Games";
-  src: url("/assets/Hunger_Games.ttf");
-}
 video#bgvid {
   position: fixed;
   top: 50%;
@@ -95,9 +91,9 @@ p {
 
 #welcome {
   font-size: 90px;
-  color: red;
+  color: white;
   margin-top: 45px;
-  font-family: "Hunger Games";
+  font-family: "Courier New", Courier, monospace;
 }
 
 #footer {

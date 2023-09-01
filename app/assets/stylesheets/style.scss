@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Bangers|Cabin+Sketch|Gloria+Hallelujah|Jua|Permanent+Marker|Special+Elite|Sriracha|Tauri');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@font-face {
-  font-family: "Hunger Games";
-  src: url('/assets/Hunger_Games.ttf');
-}
+// @font-face {
+//   font-family: "Hunger Games";
+//   src: url('/assets/Hunger_Games.ttf');
+// }
 
 
 video#bgvid {
@@ -105,10 +105,11 @@ p {
 
 #welcome {
   font-size: 90px;
-  color: red;
+  color: white;
   margin-top: 45px;
+  font-family: 'Courier New', Courier, monospace;
   // font-family: 'Sriracha', cursive;
-  font-family: "Hunger Games";
+  // font-family: "Hunger Games";
 }
 
 #footer {
