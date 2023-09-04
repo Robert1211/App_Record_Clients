@@ -32,6 +32,12 @@ body {
   background-color: darkgrey;
   font-family: 'Inconsolata', monospace;
   font-size: 23px;
+
+  @media (max-width: 320px) {
+    text-align: center;
+
+  }
+
 }
 
 .nav a {
@@ -99,8 +105,14 @@ nav.bg-light {
 }
 
 p {
-  margin-top: 25px;
-  margin-bottom: 1rem;
+  margin-top: 43px;
+  margin-bottom: 0rem;
+
+  @media (max-width: 320px) {
+    margin-right: -262px;
+    font-size: 31px;
+  }
+
 }
 
 #welcome {
@@ -108,20 +120,37 @@ p {
   text-align: center;
   color: yellow;
   margin-top: 45px;
+
+
+
   // font-family: 'Courier New', Courier, monospace;
   // font-family: 'Sriracha', cursive;
   // font-family: "Hunger Games";
 }
 
-#footer {
-  color: red;
-}
+// #footer {
+//   // position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   height: 35px;
+//   color: red;
+//   font-size: 23px;
+
+//   @media(max-width: 620px) {
+//     font-size: 115px;
+//   }
+
+
+
+// }
+
+
 
 
 .left,
 .right {
-  // display: inline-block;
-  // width: 49%;
+  display: inline-block; //01.09.2023changes
+  width: 49%; //01.09.20023changes
   vertical-align: top;
 }
 
@@ -157,4 +186,42 @@ h1,
 #homepage {
   font-size: 25px;
   font-weight: bold;
+}
+
+
+.footer {
+
+  bottom: 0;
+  width: 100%;
+  // height: 35px;
+  // background-color: #E33258;
+  font-size: 20px;
+  text-align: center;
+  color: #0a192f;
+
+
+
+}
+
+
+.pfooter {
+  color: yellow;
+
+  @media (max-width: 375px) {
+    color: blue;
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+
+  @media (max-width: 320px) {
+    color: red;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+
+  }
+
 }

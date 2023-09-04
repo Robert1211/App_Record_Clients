@@ -27,6 +27,11 @@ body {
   font-family: "Inconsolata", monospace;
   font-size: 23px;
 }
+@media (max-width: 320px) {
+  body {
+    text-align: center;
+  }
+}
 
 .nav a {
   color: white;
@@ -89,8 +94,14 @@ nav.bg-light {
 }
 
 p {
-  margin-top: 25px;
-  margin-bottom: 1rem;
+  margin-top: 43px;
+  margin-bottom: 0rem;
+}
+@media (max-width: 320px) {
+  p {
+    margin-right: -262px;
+    font-size: 31px;
+  }
 }
 
 #welcome {
@@ -100,12 +111,10 @@ p {
   margin-top: 45px;
 }
 
-#footer {
-  color: red;
-}
-
 .left,
 .right {
+  display: inline-block;
+  width: 49%;
   vertical-align: top;
 }
 
@@ -139,4 +148,34 @@ h1,
 #homepage {
   font-size: 25px;
   font-weight: bold;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: #0a192f;
+}
+
+.pfooter {
+  color: yellow;
+}
+@media (max-width: 375px) {
+  .pfooter {
+    color: blue;
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 320px) {
+  .pfooter {
+    color: red;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style.css.map */
