@@ -160,6 +160,14 @@ p {
   margin-top: 43px;
   margin-bottom: 0rem;
 
+  @media (max-width: 393px) {
+    margin-right: -101px;
+    margin-left: 5px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+  }
+
   @media (max-width: 375px) {
     margin-right: -262px;
     margin-left: 5px;
@@ -178,6 +186,15 @@ p {
   text-align: center;
   color: red;
   margin-top: 45px;
+
+  @media (max-width: 393px) {
+    display: flex;
+    margin-left: 50px;
+    font-size: 92px;
+    text-align: center;
+  }
+
+
 
   @media (max-width: 375px) {
     display: flex;
@@ -279,6 +296,15 @@ h1,
 
 .pfooter {
   color: yellow;
+
+  @media (max-width: 393px) {
+    color: red;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+
+  }
 
   @media (max-width: 375px) {
     color: red;

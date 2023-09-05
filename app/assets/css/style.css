@@ -139,6 +139,15 @@ p {
   margin-top: 43px;
   margin-bottom: 0rem;
 }
+@media (max-width: 393px) {
+  p {
+    margin-right: -101px;
+    margin-left: 5px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
 @media (max-width: 375px) {
   p {
     margin-right: -262px;
@@ -158,6 +167,14 @@ p {
   text-align: center;
   color: red;
   margin-top: 45px;
+}
+@media (max-width: 393px) {
+  #welcome {
+    display: flex;
+    margin-left: 50px;
+    font-size: 92px;
+    text-align: center;
+  }
 }
 @media (max-width: 375px) {
   #welcome {
@@ -222,6 +239,15 @@ h1,
 
 .pfooter {
   color: yellow;
+}
+@media (max-width: 393px) {
+  .pfooter {
+    color: red;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
 }
 @media (max-width: 375px) {
   .pfooter {
