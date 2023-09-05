@@ -251,6 +251,15 @@ h1,
 .pfooter {
   color: yellow;
 }
+@media (max-width: 414px) {
+  .pfooter {
+    color: red;
+    font-size: 14px;
+    padding-top: 41px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+}
 @media (max-width: 393px) {
   .pfooter {
     color: red;
@@ -279,6 +288,15 @@ h1,
   }
 }
 @media (max-width: 320px) {
+  .pfooter {
+    color: red;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 290px) {
   .pfooter {
     color: red;
     font-size: 20px;
