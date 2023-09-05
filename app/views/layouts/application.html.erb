@@ -6,7 +6,7 @@
      <%= csp_meta_tag %>
      <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
      <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1"/>
   </head>
   <body>
     <%= video_tag(["I_Just_Wanted.webm", "I_Just_Wanted.mp4"], :id => 'bgvid', :playsinline => true, :autoplay => true, :muted => true, :loop => true, :poster => asset_path("I_Just_Wanted.jpg")) %>
