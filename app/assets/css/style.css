@@ -171,7 +171,7 @@ p {
 @media (max-width: 393px) {
   #welcome {
     display: flex;
-    margin-left: 50px;
+    margin-left: 86px;
     font-size: 50px;
     text-align: center;
   }
@@ -243,8 +243,8 @@ h1,
 @media (max-width: 393px) {
   .pfooter {
     color: red;
-    font-size: 18px;
-    padding-top: 0px;
+    font-size: 14px;
+    padding-top: 41px;
     padding-bottom: 8px;
     font-weight: 500;
   }
