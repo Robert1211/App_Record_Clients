@@ -80,6 +80,9 @@ nav.bg-light {
   color: white;
 }
 
+.navbar-toggler {
+  background-color: lightgrey;
+}
 @media (max-width: 375px) {
   .navbar-toggler {
     font-size: 3.25rem;
@@ -171,8 +174,8 @@ p {
 @media (max-width: 393px) {
   #welcome {
     display: flex;
-    margin-left: 86px;
-    font-size: 50px;
+    margin-left: 65px;
+    font-size: 65px;
     text-align: center;
   }
 }
