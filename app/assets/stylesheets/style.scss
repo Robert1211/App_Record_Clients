@@ -196,6 +196,17 @@ p {
   color: red;
   margin-top: 45px;
 
+  @media (max-width: 400px) {
+    display: flex;
+    margin-left: 65px;
+    margin-top: 28px;
+    margin-bottom: -2px;
+    font-size: 65px;
+    text-align: center;
+  }
+
+
+
   @media (max-width: 393px) {
     display: flex;
     margin-left: 65px;
