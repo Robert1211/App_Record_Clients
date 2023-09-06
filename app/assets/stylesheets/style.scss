@@ -161,6 +161,14 @@ p {
   margin-top: 43px;
   margin-bottom: 0rem;
 
+  @media (max-width: 400px) {
+    margin-right: 4px;
+    margin-left: 5px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 7px;
+  }
+
   @media (max-width: 393px) {
     margin-right: 4px;
     margin-left: 5px;
@@ -306,7 +314,7 @@ h1,
   color: yellow;
 
 
-  @media (max-width: 414px) {
+  @media (max-width: 400px) {
     color: red;
     font-size: 14px;
     padding-top: 41px;
