@@ -83,6 +83,11 @@ nav.bg-light {
 .navbar-toggler {
   background-color: lightgrey;
 }
+@media (max-width: 767px) {
+  .navbar-toggler {
+    font-size: 2.3rem;
+  }
+}
 @media (max-width: 414px) {
   .navbar-toggler {
     font-size: 2rem;
@@ -101,6 +106,11 @@ nav.bg-light {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(247, 4, 4);
+}
+@media (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 34px;
+  }
 }
 @media (max-width: 414px) {
   .navbar-light .navbar-nav .nav-link {
@@ -152,6 +162,15 @@ p {
   margin-top: 43px;
   margin-bottom: 0rem;
 }
+@media (max-width: 767px) {
+  p {
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 29px;
+  }
+}
 @media (max-width: 414px) {
   p {
     margin-right: 6px;
@@ -198,6 +217,16 @@ p {
   text-align: center;
   color: red;
   margin-top: 45px;
+}
+@media (max-width: 767px) {
+  #welcome {
+    display: flex;
+    margin-left: 173px;
+    margin-top: 28px;
+    margin-bottom: -22px;
+    font-size: 99px;
+    text-align: center;
+  }
 }
 @media (max-width: 414px) {
   #welcome {
@@ -298,6 +327,15 @@ h1,
 
 .pfooter {
   color: yellow;
+}
+@media (max-width: 767px) {
+  .pfooter {
+    color: red;
+    font-size: 24px;
+    padding-top: 36px;
+    padding-bottom: 11px;
+    font-weight: 500;
+  }
 }
 @media (max-width: 414px) {
   .pfooter {

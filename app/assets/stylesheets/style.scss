@@ -99,6 +99,10 @@ nav.bg-light {
   //button hamburger menu
   background-color: lightgrey;
 
+  @media (max-width: 767px) {
+    font-size: 2.30rem
+  }
+
   @media (max-width: 414px) {
     font-size: 2.00rem
   }
@@ -116,6 +120,11 @@ nav.bg-light {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(247, 4, 4);
+
+
+  @media (max-width: 767px) {
+    font-size: 34px;
+  }
 
   @media (max-width: 414px) {
     font-size: 34px;
@@ -170,6 +179,15 @@ p {
   margin-top: 43px;
   margin-bottom: 0rem;
 
+  @media (max-width: 767px) {
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 29px;
+  }
+
+
   @media (max-width: 414px) {
     margin-right: 6px;
     margin-left: 6px;
@@ -209,11 +227,32 @@ p {
 
 }
 
+#main {
+  // @media (max-width: 767px) {
+  //   display: flex;
+  //   // margin-left: 27px;
+  //   // margin-top: 28px;
+  //   // margin-bottom: -22px;
+  //   // font-size: 85px;
+  //   // text-align: center;
+  // }
+}
+
 #welcome {
   font-size: 120px;
   text-align: center;
   color: red;
   margin-top: 45px;
+
+
+  @media (max-width: 767px) {
+    display: flex;
+    margin-left: 173px;
+    margin-top: 28px;
+    margin-bottom: -22px;
+    font-size: 99px;
+    text-align: center;
+  }
 
   @media (max-width: 414px) {
     display: flex;
@@ -352,6 +391,16 @@ h1,
 
 .pfooter {
   color: yellow;
+
+  @media (max-width: 767px) {
+    color: red;
+    font-size: 24px;
+    padding-top: 36px;
+    padding-bottom: 11px;
+    font-weight: 500;
+
+  }
+
 
   @media (max-width: 414px) {
     color: red;
