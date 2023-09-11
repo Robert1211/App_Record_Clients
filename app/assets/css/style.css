@@ -130,7 +130,7 @@ nav.bg-light {
 }
 @media (max-width: 414px) {
   .navbar-light .navbar-nav .nav-link {
-    font-size: 34px;
+    font-size: 29px;
   }
 }
 @media (max-width: 375px) {
@@ -334,11 +334,23 @@ p {
   #welcome {
     display: flex;
     font-size: 117px;
+    text-align: center;
+    margin: 0 70px 0 70px;
+  }
+}
+@media (max-width: 353px) {
+  #welcome {
+    display: flex;
+    font-size: 117px;
+    text-align: center;
   }
 }
 @media (max-width: 320px) {
   #welcome {
+    display: flex;
     font-size: 117px;
+    text-align: center;
+    margin: 0 44px 0 44px;
   }
 }
 

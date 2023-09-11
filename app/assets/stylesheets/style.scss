@@ -140,7 +140,7 @@ nav.bg-light {
   }
 
   @media (max-width: 414px) {
-    font-size: 34px;
+    font-size: 29px;
   }
 
 
@@ -355,13 +355,25 @@ p {
     display: flex;
     // margin-left: -34px;
     font-size: 117px;
+    text-align: center;
+    margin: 0 70px 0 70px;
+  }
+
+  @media (max-width: 353px) {
+    display: flex;
+    // margin-left: -34px;
+    font-size: 117px;
+    text-align: center;
   }
 
 
 
   @media (max-width: 320px) {
+    display: flex;
     // margin-left: -34px;
     font-size: 117px;
+    text-align: center;
+    margin: 0 44px 0 44px;
   }
 
 
