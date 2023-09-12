@@ -481,6 +481,19 @@ h1,
 .pfooter {
   color: yellow;
 
+  @media (max-width: 2000px) {
+    color: red;
+    font-size: 17px;
+    padding-top: 28px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    // position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+
+  }
+
   @media (max-width: 1240px) {
     color: red;
     font-size: 17px;

@@ -442,6 +442,17 @@ h1,
 .pfooter {
   color: yellow;
 }
+@media (max-width: 2000px) {
+  .pfooter {
+    color: red;
+    font-size: 17px;
+    padding-top: 28px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    bottom: 0px;
+    width: 100%;
+  }
+}
 @media (max-width: 1240px) {
   .pfooter {
     color: red;
