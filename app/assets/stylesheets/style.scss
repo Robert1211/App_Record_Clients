@@ -22,13 +22,14 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%);
   background: url(/assets/I_Just_Wanted.jpg) no-repeat;
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: darkgrey;
+  // background-color: rgb(136, 29, 29);
+  background-color: #232c36;
   font-family: 'Inconsolata', monospace;
   font-size: 23px;
   text-align: center;
@@ -170,6 +171,7 @@ nav.bg-light {
 p {
   margin-top: 43px;
   margin-bottom: 0rem;
+  color: #e8e8e8;
 
   @media (max-width: 1240px) {
     margin-right: 6px;
@@ -542,7 +544,8 @@ h1,
   }
 
   @media (max-width: 320px) {
-    color: red;
+    // color: red;
+    color: white;
     font-size: 20px;
     padding-top: 18px;
     padding-bottom: 8px;
