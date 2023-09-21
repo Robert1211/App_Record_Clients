@@ -125,12 +125,12 @@ nav.bg-light {
 }
 @media (max-width: 375px) {
   .navbar-light .navbar-nav .nav-link {
-    font-size: 37px;
+    font-size: 29px;
   }
 }
 @media (max-width: 320px) {
   .navbar-light .navbar-nav .nav-link {
-    font-size: 37px;
+    font-size: 28px;
   }
 }
 
@@ -252,18 +252,18 @@ p {
 }
 @media (max-width: 375px) {
   p {
-    margin-right: 4px;
-    margin-left: 5px;
-    font-size: 19px;
+    margin-right: 9px;
+    margin-left: 9px;
+    font-size: 17px;
     text-align: center;
     margin-top: 7px;
   }
 }
 @media (max-width: 320px) {
   p {
-    margin-right: 4px;
-    margin-left: 5px;
-    font-size: 19px;
+    margin-right: 9px;
+    margin-left: 9px;
+    font-size: 17px;
     text-align: center;
     margin-top: 7px;
   }
@@ -273,6 +273,16 @@ p {
   #main {
     margin-top: 28px;
     text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  #main {
+    margin-bottom: -70px;
+  }
+}
+@media (max-width: 320px) {
+  #main {
+    margin-bottom: -70px;
   }
 }
 
@@ -368,9 +378,8 @@ p {
 @media (max-width: 375px) {
   #welcome {
     display: flex;
-    font-size: 54px;
+    font-size: 57px;
     text-align: center;
-    margin: 0 70px 0 70px;
   }
 }
 @media (max-width: 353px) {
@@ -383,7 +392,7 @@ p {
 @media (max-width: 320px) {
   #welcome {
     display: flex;
-    font-size: 117px;
+    font-size: 53px;
     text-align: center;
     margin: 0 44px 0 44px;
   }
@@ -553,7 +562,7 @@ h1,
 @media (max-width: 375px) {
   .pfooter {
     color: red;
-    font-size: 23px;
+    font-size: 14px;
     padding-top: 71px;
     padding-bottom: 22px;
     font-weight: 400;
@@ -564,7 +573,7 @@ h1,
 @media (max-width: 320px) {
   .pfooter {
     color: red;
-    font-size: 20px;
+    font-size: 14px;
     padding-top: 18px;
     padding-bottom: 8px;
     font-weight: 500;
@@ -574,7 +583,7 @@ h1,
 @media (max-width: 290px) {
   .pfooter {
     color: red;
-    font-size: 20px;
+    font-size: 14px;
     padding-top: 0px;
     padding-bottom: 8px;
     font-weight: 500;
@@ -584,11 +593,26 @@ h1,
 label {
   color: white;
 }
+@media (max-width: 320px) {
+  label {
+    font-size: 18px;
+  }
+}
 
 .login-session-style {
   color: white;
+  font-size: 39px;
 }
 
 .signUp-session-style {
   color: white;
+}
+@media (max-width: 320px) {
+  .signUp-session-style {
+    font-size: 39px;
+  }
+}
+
+.btn-primary {
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
