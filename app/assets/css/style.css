@@ -64,16 +64,6 @@ body {
 nav.bg-light {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
-@media (max-width: 375px) {
-  nav.bg-light {
-    margin-right: -279px;
-  }
-}
-@media (max-width: 320px) {
-  nav.bg-light {
-    margin-right: -262px;
-  }
-}
 
 .navbar-nav {
   justify-content: space-around;
@@ -106,12 +96,12 @@ nav.bg-light {
 }
 @media (max-width: 375px) {
   .navbar-toggler {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 320px) {
   .navbar-toggler {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -135,12 +125,12 @@ nav.bg-light {
 }
 @media (max-width: 375px) {
   .navbar-light .navbar-nav .nav-link {
-    font-size: 43px;
+    font-size: 37px;
   }
 }
 @media (max-width: 320px) {
   .navbar-light .navbar-nav .nav-link {
-    font-size: 43px;
+    font-size: 37px;
   }
 }
 
@@ -262,15 +252,20 @@ p {
 }
 @media (max-width: 375px) {
   p {
-    margin-right: -262px;
+    margin-right: 4px;
     margin-left: 5px;
-    font-size: 31px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 7px;
   }
 }
 @media (max-width: 320px) {
   p {
-    margin-right: -262px;
-    font-size: 31px;
+    margin-right: 4px;
+    margin-left: 5px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 7px;
   }
 }
 
@@ -373,7 +368,7 @@ p {
 @media (max-width: 375px) {
   #welcome {
     display: flex;
-    font-size: 117px;
+    font-size: 54px;
     text-align: center;
     margin: 0 70px 0 70px;
   }
@@ -381,7 +376,7 @@ p {
 @media (max-width: 353px) {
   #welcome {
     display: flex;
-    font-size: 117px;
+    font-size: 54px;
     text-align: center;
   }
 }
@@ -584,4 +579,16 @@ h1,
     padding-bottom: 8px;
     font-weight: 500;
   }
+}
+
+label {
+  color: white;
+}
+
+.login-session-style {
+  color: white;
+}
+
+.signUp-session-style {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
